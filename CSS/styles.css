@@ -304,21 +304,52 @@ img {
   width: 270px;
 }
 .our-team-text {
+  padding: 30px 32px;
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #fff;
+  background-color: var(--white-text-color);
 }
 .our-team-title-names {
   margin-bottom: 10px;
 }
 .our-team-positions {
+  margin-bottom: 16px;
   font-family: var(--text-font);
   font-weight: normal;
   font-size: 16px;
   line-height: 1.188;
   letter-spacing: 0.03em;
   color: var(--main-color);
+}
+.our-team-socials {
+  display: flex;
+  justify-content: space-between;
+  width: 206px;
+}
+.our-team-socials-item {
+  width: 44px;
+  height: 44px;
+}
+.our-team-btn {
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  color: #afb1b8;
+  background-color: var(--white-text-color);
+}
+.our-team-btn:hover,
+.our-team-btn:focus {
+  color: var(--white-text-color);
+  background-color: var(--accent-color);
+}
+.btn-icon {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+.btn-icon:hover,
+.btn-icon:focus {
+  fill: var(--white-text-color);
 }
 
 /* hero portfolio */
