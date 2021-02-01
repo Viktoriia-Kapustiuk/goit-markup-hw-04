@@ -330,6 +330,7 @@ img {
   height: 44px;
 }
 .our-team-btn {
+  display: inline-block;
   border: none;
   border-radius: 50%;
   width: 44px;
