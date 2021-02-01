@@ -182,6 +182,23 @@ img {
   padding-bottom: 200px;
   background-color: #2f303a;
 }
+.overlay {
+  display: flex;
+  height: 600px;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hw-04/герой.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #c4c4c4;
+}
+
 .hero .container {
   display: flex;
   justify-content: center;
@@ -226,9 +243,30 @@ img {
   padding: 94px 0;
 }
 .items-list {
-  margin-bottom: 94px;
   display: flex;
   min-width: 1170px;
+}
+.items-list-item::before {
+  content: "";
+  display: block;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.icon-antenna::before {
+  background-image: url(/images/hw-04/antenna.png);
+}
+.icon-clock::before {
+  background-image: url(/images/hw-04/clock.png);
+}
+.icon-diagram::before {
+  background-image: url(/images/hw-04/diagram.png);
+}
+.icon-astronaut::before {
+  background-image: url(/images/hw-04/astronaut.png);
 }
 
 .items-list-item {
@@ -326,6 +364,7 @@ img {
   width: 206px;
 }
 .our-team-socials-item {
+  background-position: center;
   width: 44px;
   height: 44px;
 }
@@ -415,6 +454,38 @@ img {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+}
+/* Our clients */
+.our-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients-names {
+  display: flex;
+}
+.clients-names-item {
+}
+.clients-img {
+  width: 50px;
+  height: 40px;
+  fill: currentColor;
+  background-position: center;
+  background-size: contain;
+}
+.clients-img:hover,
+.clients-img:focus {
+  fill: var(--white-text-color);
+}
+.clients-names-item:not(:last-child) {
+  margin-right: 30px;
+}
+.clients-link {
+  display: inline-block;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
 /* footer */
