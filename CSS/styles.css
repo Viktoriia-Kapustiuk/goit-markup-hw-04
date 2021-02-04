@@ -138,7 +138,7 @@ img {
 }
 
 .header .info {
-  display: block;
+  display: flex;
   font-family: var(--text-font);
   font-weight: 500;
   font-size: 14px;
@@ -250,6 +250,7 @@ img {
   content: "";
   display: block;
   height: 120px;
+  width: 270px;
   background: #f5f4fa;
   border-radius: 4px;
   background-repeat: no-repeat;
@@ -269,13 +270,27 @@ img {
   background-image: url(/images/hw-04/astronaut.png);
 }
 
-.items-list-item {
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
+  margin-bottom: -30px;
+}
+
+/*.items-list-item {
   width: 270px;
 }
 .items-list-item:not(:last-child) {
   margin-right: 30px;
+} */
+
+.items-list-item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  flex-basis: calc(100% / 4-30);
 }
 .items-title {
+  margin-top: 30px;
   margin-bottom: 10px;
   font-family: var(--text-font);
   font-weight: 700;
@@ -310,7 +325,6 @@ img {
 }
 .about-us-list {
   display: flex;
-  margin-bottom: 94px;
 }
 .about-us-list-item:not(:last-child) {
   margin-right: 30px;
@@ -390,6 +404,11 @@ img {
 .btn-icon:hover,
 .btn-icon:focus {
   fill: var(--white-text-color);
+}
+
+.clients-img {
+  width: 100px;
+  height: 100px;
 }
 
 /* hero portfolio */
