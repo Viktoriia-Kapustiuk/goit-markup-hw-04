@@ -48,7 +48,7 @@ img {
 
 /* logo */
 .logotype {
-  display: inline-block;
+  display: block;
   width: 145px;
   font-family: var(--logo-font);
   font-weight: 700;
@@ -114,6 +114,23 @@ img {
 .info {
   display: block;
 }
+
+.tel::before {
+  content: "";
+  width: 16px;
+  height: 12px;
+  background-image: url("/images/sprite.svg#icon-envelope-hover-1");
+  background-size: contain;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+.tel:hover::before {
+  background-image: url("/images/sprite.svg#icon-envelope-hover-2");
+}
+.icon-smartphone-1 {
+}
+
 .navigation-list-link,
 .info {
   padding-top: 32px;
