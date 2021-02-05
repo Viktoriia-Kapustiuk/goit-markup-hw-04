@@ -35,8 +35,20 @@
                 </nav>
             </div>
             <div class="auth-nav">
-                <a class="info tel" href="mailto:info@devstudio.com">info@devstudio.com</a> 
-                <a class="info mail" href="tel:+380961111111">tel:+380961111111</a>
+                <ul class="auth-nav-list">
+                    <li class="auth-nav-item link">
+                        <svg class="contacts-icon"> 
+                            <use href="./sprite-2.svg#icon-envelope-hover-1" class="envelope"></use>
+                        </svg>
+                        <a class="info mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="auth-nav-item link">
+                        <svg class="contacts-icon">
+                            <use href="./sprite-2.svg#icon-smartphone-1" class="phone"></use>
+                        </svg>
+                        <a class="info tel" href="tel:+380961111111">tel:+380961111111</a>
+                    </li>
+                </ul>   
             </div>
         </div>
         
@@ -44,7 +56,7 @@
     </header>
     <main>
         <!--HERO-->
-        <section class="hero">
+        <section class="hero overlay">
             <div class="container">
                 <div class="hero-side">
                     <h1 class="title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
@@ -57,22 +69,22 @@
         <section class="items">
             <div class="container">
                 <ul class="items-list list">
-                    <li class="items-list-item">
+                    <li class="items-list-item icon-antenna">
                         <h3 class="items-title">Внимание к деталям</h3>
                         <p class="items-text">Идейные соображения, а также начало повседневной работы по формированию
                         позиции.</p>
                     </li>
-                    <li class="items-list-item">
+                    <li class="items-list-item icon-clock">
                         <h3 class="items-title">Пунктуальность</h3>
                         <p class="items-text">Задача организации, в особенности же рамки и место обучения кадров влечет за
                         собой.</p>
                     </li>
-                    <li class="items-list-item">
+                    <li class="items-list-item icon-diagram">
                         <h3 class="items-title">Планирование</h3>
                         <p class="items-text">Задача организации, в особенности же рамки и место обучения кадров влечет за
                         собой.</p>
                     </li>
-                    <li class="items-list-item">
+                    <li class="items-list-item icon-astronaut">
                         <h3 class="items-title">Современные технологии</h3>
                         <p class="items-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.
                         </p>
@@ -114,6 +126,36 @@
                             <div class="our-team-text">
                                 <h3 class="our-team-title-names">Игорь Демьяненко</h3>
                                 <p class="our-team-positions">Product Designer</p>
+                                <ul class="icon-list list">
+                                    <li class="icon-list-item">
+                                        <a class="icon-link" href="#">
+                                            <svg class="icon-img">
+                                                <use href="./sprite-2.svg#icon-instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="icon-list-item">
+                                        <a class="icon-link" href="#">
+                                            <svg class="icon-img">
+                                                <use href="./sprite-2.svg#icon-twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="icon-list-item">
+                                        <a class="icon-link" href="#">
+                                            <svg class="icon-img">
+                                                <use href="./sprite-2.svg#icon-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="icon-list-item">
+                                        <a class="icon-link" href="#">
+                                            <svg class="icon-img">
+                                                <use href="./sprite-2.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                     </li>
                     <li class="our-team-list-item">
@@ -162,7 +204,42 @@
                         <a class="address-list-item-link-tel link" href="tel:+380991111111">+38 099 111 11 11</a>
                     </li>
                 </ul>
+                <div class="footer-icons">
+                    <h3 class="footer-title"> Присоединяйтесь </h3>
+                    <ul class="icon-list">
+                        <li class="icon-list-item">
+                            <a class="icon-link dark-them" aria-label="инстаграм" href="#">
+                                <svg class="icon-img dark-them-1">
+                                    <use href="./sprite-2.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="icon-list-item">
+                            <a class="icon-link dark-them" aria-label="твиттер" href="#">
+                                <svg class="icon-img dark-them-1">
+                                    <use href="./sprite-2.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="icon-list-item">
+                            <a class="icon-link dark-them" aria-label="фейсбук" href="#">
+                                <svg class="icon-img dark-them-1">
+                                    <use href="./sprite-2.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="icon-list-item dark-them">
+                            <a class="icon-link dark-them" aria-label="линкедин" href="#">
+                                <svg class="icon-img dark-them-1">
+                                    <use href="./sprite-2.svg#icon-linkedin"></use>
+                
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
         </div>
+
         
     </footer>
 
