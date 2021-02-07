@@ -688,3 +688,8 @@ img {
 .buttons-list-item:not(:last-child) {
   margin-right: 8px;
 }
+.buttons-list-item-btn {
+  padding: 6.1px 22.5px;
+  border-color: transparent;
+  border-radius: 4px;
+}
