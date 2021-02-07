@@ -607,6 +607,7 @@ img {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
+  align-items: baseline;
 }
 
 .footer .container {
@@ -644,13 +645,12 @@ img {
 .footer-title {
   color: var(--white-text-color);
   margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
 .footer-icons {
   align-items: flex-start;
   margin-left: 70px;
-  padding-top: 16px;
-  padding-bottom: 96px;
   width: 206px;
 }
 .icon-link .dark-them {
