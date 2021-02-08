@@ -145,27 +145,6 @@ img {
   display: block;
 }
 
-/* .tel::before {
-  content: "";
-  width: 16px;
-  height: 12px;
-  background-image: url("/images/sprite.svg#icon-envelope-hover-1");
-  background-size: contain;
-  display: inline-block;
-  background-repeat: no-repeat;
-  margin-right: 10px;
-}
-
-.tel:hover::before {
-  background-image: url("/images/sprite.svg#icon-envelope-hover-2");
-} */
-
-/*
-.navigation-list-link,
-.info {
-  padding-top: 32px;
-  padding-bottom: 32px; */
-
 .navigation-list-link {
   display: block;
   font-family: var(--text-font);
@@ -232,8 +211,6 @@ img {
 
 .overlay {
   display: flex;
-  background-size: cover;
-  background-position: center;
   height: 600px;
   max-width: 1600px;
   margin-left: auto;
@@ -244,8 +221,12 @@ img {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/images/герой.jpg);
+    url(../images/герой.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: #c4c4c4;
 }
+
 .hero .container {
   display: flex;
   justify-content: center;
