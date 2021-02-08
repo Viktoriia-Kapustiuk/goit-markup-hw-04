@@ -396,11 +396,10 @@ img {
 /* our team */
 .our-team {
   background-color: #f5f4fa;
-}
-.our-team-guys {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
 .our-team-title {
   margin-bottom: 50px;
   text-align: center;
