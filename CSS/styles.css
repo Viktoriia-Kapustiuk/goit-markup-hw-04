@@ -61,6 +61,8 @@ img {
 }
 .header .logotype {
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo-web {
@@ -135,8 +137,6 @@ img {
 
 .navigation-list {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 .navigation-list-item:not(:last-child) {
   margin-right: 50px;
@@ -154,6 +154,8 @@ img {
   letter-spacing: 0.02em;
   color: var(--title-color);
   text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .navigation-list-link:hover,
 .navigation-list-link:focus {
